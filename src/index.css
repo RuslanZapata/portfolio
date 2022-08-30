@@ -16,7 +16,7 @@
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
-    --color-light: #rgba(255, 255, 255, 0.4);
+    --color-light: rgba(255, 255, 255, 0.4);
 
     --transition: all 400ms ease;
 
@@ -57,6 +57,7 @@ h1{
 
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2,
@@ -131,7 +132,7 @@ img{
     }
 
     .section > h2{
-        margin-bottom: 6rem;
+        margin-bottom: 2rem;
     }
 }
 
